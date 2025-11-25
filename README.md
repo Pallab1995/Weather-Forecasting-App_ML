@@ -47,23 +47,28 @@ pip install -r requirements.txt
 streamlit run my_app.py
 
 🧾 Project Structure
+## 📁 Project Structure
+
+```
 Weather-Forecasting-App_ML/
 │
-├── app.py                             # Main Streamlit app
-├── requirements.txt                   # Dependencies
-├── README.md                          # Project documentation
+├── app.py                                   ← Main Streamlit application
+├── requirements.txt                         ← All required dependencies
+├── README.md                                ← Project documentation
 │
-├── notebooks/
-│   └── WeatherForecasting_UI_Streamlit.ipynb   # Jupyter/Colab notebook
+├── notebooks/                               ← Jupyter/Colab notebook files
+│   └── WeatherForecasting_UI_Streamlit.ipynb
 │
-├── models/
-│   └── weather_model.pkl              # Trained ML model (if applicable)
+├── models/                                  ← Trained ML models
+│   └── weather_model.pkl
 │
-├── assets/
-│   └── ui_screenshot.png              # UI image(s) for README
+├── assets/                                  ← Screenshots, UI images
+│   └── ui_screenshot.png
 │
-└── utils/
-    └── preprocessing.py               # Preprocessing or helper functions
+└── utils/                                   ← Helper scripts
+    └── preprocessing.py                     ← Data cleaning / preprocessing functions
+```
+
 
 
     
