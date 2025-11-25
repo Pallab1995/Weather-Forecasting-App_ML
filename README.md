@@ -49,11 +49,23 @@ streamlit run my_app.py
 🧾 Project Structure
 Weather-Forecasting-App_ML/
 │
-├── my_app.py                         # Main Streamlit app
-├── requirements.txt                  # Required dependencies
-├── ColabCode/WeatherForcasting_WithUI_Streamlit.ipynb  # Notebook version
-├── ImagesUI/UI_image.png             # Screenshot of UI
-└── README.md                         # Project documentation
+├── app.py                           # Main Streamlit app
+├── requirements.txt                 # Dependencies
+├── README.md                        # Project documentation
+│
+├── notebooks/
+│   └── WeatherForecasting_UI_Streamlit.ipynb   # Jupyter/Colab notebook version
+│
+├── models/
+│   └── weather_model.pkl            # Trained ML model (if applicable)
+│
+├── assets/
+│   └── ui_screenshot.png            # UI image(s) for README
+│
+└── utils/
+    └── preprocessing.py             # Preprocessing or helper functions
+
+    
 
 📸 App Preview
 
