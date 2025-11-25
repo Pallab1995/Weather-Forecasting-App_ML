@@ -49,21 +49,22 @@ streamlit run my_app.py
 🧾 Project Structure
 Weather-Forecasting-App_ML/
 │
-├── app.py                           # Main Streamlit app
-├── requirements.txt                 # Dependencies
-├── README.md                        # Project documentation
+├── app.py                             # Main Streamlit app
+├── requirements.txt                   # Dependencies
+├── README.md                          # Project documentation
 │
 ├── notebooks/
-│   └── WeatherForecasting_UI_Streamlit.ipynb   # Jupyter/Colab notebook version
+│   └── WeatherForecasting_UI_Streamlit.ipynb   # Jupyter/Colab notebook
 │
 ├── models/
-│   └── weather_model.pkl            # Trained ML model (if applicable)
+│   └── weather_model.pkl              # Trained ML model (if applicable)
 │
 ├── assets/
-│   └── ui_screenshot.png            # UI image(s) for README
+│   └── ui_screenshot.png              # UI image(s) for README
 │
 └── utils/
-    └── preprocessing.py             # Preprocessing or helper functions
+    └── preprocessing.py               # Preprocessing or helper functions
+
 
     
 
