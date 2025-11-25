@@ -59,8 +59,10 @@ Weather-Forecasting-App_ML/
 
 👨‍💻 Author
 
-Pallab Sharma 
+Pallab Sharma
 
 Data Analyst → AI/ML Practitioner
+
+🔗 GitHub Profile(https://github.com/Pallab1995)
 
 📧 Email: pallabsharma100@gmail.com
